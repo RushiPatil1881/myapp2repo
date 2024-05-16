@@ -21,6 +21,8 @@ spec:
         image: "rushidockerhub1881/myapp2:latest"
         ports:
           - containerPort: 3000
+  nodeSelector:
+    kubernetes.io/hostname: ip-192-168-48-211.ap-south-1.compute.internal
 ---
 apiVersion: v1
 kind: Service
