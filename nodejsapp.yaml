@@ -21,8 +21,8 @@ spec:
         image: "rushidockerhub1881/myapp2:latest"
         resources:
           limits:
-            memory: "256Mi"
-            cpu: "500m"
+            memory: "450Mi"
+            cpu: "700m"
         ports:
           - containerPort: 3000
       affinity:
